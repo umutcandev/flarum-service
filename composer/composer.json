@@ -25,12 +25,14 @@
         "afrux/forum-widgets-bundle": "*",
         "askvortsov/flarum-markdown-tables": "*",
         "blomstra/fontawesome": "*",
+        "blomstra/oauth-apple": "^0.1.2",
         "blomstra/sort-order-toggle": "*",
         "blomstra/usercard-stats": "*",
-        "blomstra/welcome-login": "*",
+        "clarkwinkelmann/flarum-ext-circle-groups": "^1.0",
+        "clarkwinkelmann/flarum-ext-group-list": "^1.0",
         "datlechin/flarum-link-preview": "*",
         "davwheat/custom-sidenav-links": "*",
-        "extiverse/mercury": "*",
+        "davwheat/flarum-ext-ads": "*",
         "flarum-lang/turkish": "^1.9",
         "flarum/approval": "*",
         "flarum/bbcode": "*",
@@ -49,24 +51,34 @@
         "flarum/subscriptions": "*",
         "flarum/suspend": "*",
         "flarum/tags": "*",
+        "fof/bbcode-details": "^1.1",
         "fof/best-answer": "*",
         "fof/formatting": "^1.0",
         "fof/links": "^1.1",
+        "fof/merge-discussions": "*",
         "fof/nightmode": "*",
         "fof/oauth": "^1.3",
         "fof/pages": "^1.0",
+        "fof/pretty-mail": "^1.1",
         "fof/share-social": "^1.1",
         "fof/sitemap": "^2.0",
+        "fof/split": "*",
         "fof/upload": "*",
         "fof/user-bio": "*",
-        "ianm/log-viewer": "^0.1.0",
+        "fof/user-directory": "*",
+        "ianm/oauth-reddit": "^0.1.0",
+        "ianm/oauth-twitch": "^0.1.1",
         "ianm/syndication": "*",
         "justoverclock/custom-html-widget": "*",
+        "nearata/flarum-ext-copy-code-to-clipboard": "^2.1",
         "the-turk/flarum-stickiest": "*",
         "v17development/flarum-seo": "^1.8"
     },
     "config": {
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
     }
 }
