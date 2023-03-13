@@ -23,6 +23,7 @@
     "require": {
         "acpl/mobile-tab": "^1.1",
         "afrux/forum-widgets-bundle": "*",
+        "askvortsov/flarum-auto-moderator": "*",
         "askvortsov/flarum-discussion-templates": "^0.8.3",
         "askvortsov/flarum-markdown-tables": "*",
         "blomstra/fontawesome": "*",
@@ -31,6 +32,7 @@
         "blomstra/usercard-stats": "*",
         "clarkwinkelmann/flarum-ext-circle-groups": "^1.0",
         "clarkwinkelmann/flarum-ext-group-list": "^1.0",
+        "darkle/fancybox": "^1.1",
         "datlechin/flarum-link-preview": "*",
         "davwheat/custom-sidenav-links": "*",
         "davwheat/flarum-ext-ads": "*",
@@ -75,9 +77,11 @@
         "ianm/oauth-twitch": "^0.1.1",
         "ianm/syndication": "*",
         "justoverclock/custom-html-widget": "*",
+        "miniflar/top-like-givers-widget": "*",
         "nearata/flarum-ext-copy-code-to-clipboard": "^2.1",
         "the-turk/flarum-stickiest": "*",
-        "v17development/flarum-seo": "^1.8"
+        "v17development/flarum-seo": "^1.8",
+        "v17development/flarum-user-badges": "^1.1"
     },
     "config": {
         "preferred-install": "dist",
