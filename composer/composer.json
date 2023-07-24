@@ -23,7 +23,6 @@
     "require": {
         "acpl/mobile-tab": "^1.1",
         "afrux/forum-widgets-bundle": "*",
-        "askvortsov/flarum-auto-moderator": "*",
         "askvortsov/flarum-discussion-templates": "^0.8.3",
         "askvortsov/flarum-markdown-tables": "*",
         "blomstra/fontawesome": "*",
@@ -80,8 +79,7 @@
         "nearata/flarum-ext-copy-code-to-clipboard": "^2.1",
         "the-turk/flarum-mathren": "^1.0",
         "the-turk/flarum-stickiest": "*",
-        "v17development/flarum-seo": "^1.8",
-        "v17development/flarum-user-badges": "^1.1"
+        "v17development/flarum-seo": "^1.8"
     },
     "config": {
         "preferred-install": "dist",
